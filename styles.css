@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(194, 194, 194);
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.post{
+    background-color: white;
+    display: block;
+    width: 450px;
+    height: 600px;
+    margin: 0px auto;
+    border-color: black;
+}
+
+
+.post-header {
+    display: flex;
+    height: 30px;
+    padding: 12px;
+    align-items: center;
+    
+}
+
+
+.post-header > * {
+    margin: 5px;
+    box-sizing: content-box;
+    
+    
+}
+
+.contenedor{
+    padding: 12px;
+}
+
+.post-likes > *{
+    margin: 5px;
+}
+
+.post-bio {
+    box-sizing: content-box;
+    padding: 7px;
+}
+
+img {
+    object-fit: scale-down;
+    width: 100%;
+    padding: 0px;
+}
+
+
+#floatRight{
+    float: right;
+
+}
+
+#dots{
+    margin-left: auto;
+}
+
