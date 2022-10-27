@@ -2,7 +2,14 @@
 body{
     background-color: rgb(194, 194, 194);
     font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	margin: auto;
 }
 
 .post{
@@ -31,7 +38,7 @@ font-family: 'Roboto Condensed', sans-serif;
     
 }
 
-.contenedor{
+.opciones{
     padding: 12px;
 }
 
